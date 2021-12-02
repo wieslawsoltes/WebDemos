@@ -16,8 +16,8 @@ jobs:
     - name: Publish .NET Project
       run: dotnet publish Core2D.Web/Core2D.Web.csproj -c Debug -o release --nologo
 
-    - name: Change base-tag in index.html from / to Core2D.Web
-      run: sed -i 's/<base href="\/" \/>/<base href="\/Core2D.Web\/" \/>/g' release/wwwroot/index.html
+    - name: Change base-tag in index.html from / to WebDemos
+      run: sed -i 's/<base href="\/" \/>/<base href="\/WebDemos\/" \/>/g' release/wwwroot/index.html
 
     - name: copy index.html to 404.html
       run: cp release/wwwroot/index.html release/wwwroot/404.html
@@ -26,7 +26,7 @@ jobs:
       run: touch release/wwwroot/.nojekyll
       
     - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@3.7.1
+      uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
