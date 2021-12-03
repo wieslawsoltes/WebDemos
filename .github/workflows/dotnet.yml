@@ -28,9 +28,6 @@ jobs:
     - name: Add .nojekyll file
       run: touch release/wwwroot/.nojekyll
 
-    - name: remove dotnet.wasm
-      run: rm release/wwwroot/_framework/dotnet.wasm
-
     - name: Commit wwwroot to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@4.1.7
       with:
