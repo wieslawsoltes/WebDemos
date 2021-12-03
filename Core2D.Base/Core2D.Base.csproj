@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
-    <AvaloniaVersion>0.10.999-cibuild0016992-beta</AvaloniaVersion>
+    <AvaloniaVersion>0.10.999-cibuild0017013-beta</AvaloniaVersion>
     <Core2DVersion>0.10.11-rc.1</Core2DVersion>
     <RootNamespace>Core2D.Base</RootNamespace>
   </PropertyGroup>
