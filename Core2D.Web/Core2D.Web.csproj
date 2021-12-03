@@ -21,6 +21,7 @@
 	  <EmccCompileOptimizationFlag>-O3</EmccCompileOptimizationFlag>
     <EmccLinkOptimizationFlag>-O3</EmccLinkOptimizationFlag>
     <RunAOTCompilation>false</RunAOTCompilation>
+    <PublishTrimmed>true</PublishTrimmed>
   </PropertyGroup>
   
   <ItemGroup>
