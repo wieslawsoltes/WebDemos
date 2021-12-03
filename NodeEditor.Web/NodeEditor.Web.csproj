@@ -38,16 +38,6 @@
     <TrimmerRemoveSymbols>true</TrimmerRemoveSymbols>
   </PropertyGroup>
 
-  <!--<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <TrimmerRootAssembly Include="NodeEditor.Web" />
-    <TrimmableAssembly Include="Microsoft.CodeAnalysis" />
-    <TrimmableAssembly Include="Microsoft.CodeAnalysis.CSharp" />
-    <TrimmableAssembly Include="Microsoft.CodeAnalysis.CSharp.Scripting" />
-    <TrimmableAssembly Include="Microsoft.CodeAnalysis.Scripting" />
-    <TrimmableAssembly Include="Avalonia.Controls.DataGrid" />
-    <TrimmableAssembly Include="Avalonia.Themes.Default" />
-  </ItemGroup>-->
-
   <ItemGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <BlazorLinkerDescriptor Include="LinkerConfig.xml" />
   </ItemGroup>
