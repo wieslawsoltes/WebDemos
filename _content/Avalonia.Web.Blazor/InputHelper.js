@@ -4,6 +4,7 @@ export class InputHelper {
     }
     static focus(inputElement) {
         inputElement.focus();
+        inputElement.setSelectionRange(0, 0);
     }
     static setCursor(inputElement, kind) {
         inputElement.style.cursor = kind;
