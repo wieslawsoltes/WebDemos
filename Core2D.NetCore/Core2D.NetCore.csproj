@@ -3,7 +3,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
-    <AvaloniaVersion>0.10.11-rc.1</AvaloniaVersion>
+    <AvaloniaVersion>0.10.11-rc.2</AvaloniaVersion>
     <RootNamespace>Core2D.NetCore</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
